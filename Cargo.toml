@@ -1,0 +1,34 @@
+[package]
+name = "agent-memgc"
+version = "1.0.0"
+edition = "2021"
+authors = ["Ronit Gupta <ronitgupta138@gmail.com>"]
+description = "High-performance linter, cache-layout optimizer, and generational mark-and-sweep garbage collector for AI agent instruction files (AGENTS.md, CLAUDE.md, .cursorrules) in Rust."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ronitgupta138/Agent-MemGC"
+homepage = "https://github.com/ronitgupta138/Agent-MemGC"
+documentation = "https://docs.rs/agent-memgc"
+keywords = ["ai-agents", "prompt-optimization", "mcp", "linter", "cache-optimization"]
+categories = ["command-line-utilities", "development-tools", "parser-implementations"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive", "cargo"] }
+pulldown-cmark = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+hex = "0.4"
+tokio = { version = "1.40", features = ["full"] }
+colored = "2.1"
+comfy-table = "7.1"
+anyhow = "1.0"
+thiserror = "1.0"
+regex = "1.10"
+
+[dev-dependencies]
+tempfile = "3.13"
+
+[[bin]]
+name = "agent-memgc"
+path = "src/main.rs"
