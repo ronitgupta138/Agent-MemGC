@@ -1,6 +1,6 @@
 [package]
 name = "agent-memgc"
-version = "1.0.1"
+version = "1.0.2"
 edition = "2021"
 authors = ["Ronit Gupta <ronitgupta138@gmail.com>"]
 description = "High-performance linter, cache-layout optimizer, and generational mark-and-sweep garbage collector for AI agent instruction files (AGENTS.md, CLAUDE.md, .cursorrules) in Rust."
