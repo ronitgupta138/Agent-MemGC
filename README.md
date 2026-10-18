@@ -12,7 +12,7 @@
 ### **The Linter, Cache-Layout Optimizer & Generational Garbage Collector for AI Agent Instructions**
 
 [![GitHub Stars](https://img.shields.io/github/stars/ronitgupta138/Agent-MemGC?style=flat-square&logo=github&color=0891b2)](https://github.com/ronitgupta138/Agent-MemGC/stargazers)
-[![Crates.io](https://img.shields.io/badge/crates.io-v1.0.0-0891b2?style=flat-square&labelColor=0a0b0e&logo=rust&logoColor=white)](https://crates.io/crates/agent-memgc)
+[![Crates.io](https://img.shields.io/badge/crates.io-v1.0.1-0891b2?style=flat-square&labelColor=0a0b0e&logo=rust&logoColor=white)](https://crates.io/crates/agent-memgc)
 [![Rust: 1.80+](https://img.shields.io/badge/Rust-1.80+-0891b2?style=flat-square&labelColor=0a0b0e&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-0891b2?style=flat-square&labelColor=0a0b0e)](LICENSE)
 [![MCP Protocol](https://img.shields.io/badge/MCP-2024--11--05-10b981?style=flat-square&labelColor=0a0b0e)](https://modelcontextprotocol.io/)

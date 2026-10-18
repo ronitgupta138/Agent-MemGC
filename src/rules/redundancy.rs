@@ -14,7 +14,7 @@ pub fn check_redundancy(blocks: &[InstructionBlock]) -> Vec<LinterFinding> {
         }
 
         let normalized = line
-            .trim_start_matches(|c| c == '-' || c == '*' || c == '+' || c == ' ' || c == '\t')
+            .trim_start_matches(['-', '*', '+', ' ', '\t'])
             .to_lowercase();
 
         if let Some(&first_line) = seen.get(&normalized) {
