@@ -14,7 +14,7 @@ categories = ["command-line-utilities", "development-tools", "parser-implementat
 
 [dependencies]
 clap = { version = "4.5", features = ["derive", "cargo"] }
-pulldown-cmark = "0.12"
+pulldown-cmark = "0.13"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sha2 = "0.10"
