@@ -160,3 +160,18 @@ test result: ok. 6 passed; 0 failed; 0 ignored; finished in 0.04s
 ## 📜 License
 
 MIT License. Designed and engineered by [Ronit Gupta](https://github.com/ronitgupta138).
+## Linter & Cache Optimizer
+
+agent-memgc: High-performance linter, cache-layout optimizer, and garbage collector for AI agent instruction files (AGENTS.md, CLAUDE.md, .cursorrules).
+
+**Features:**
+- Instruction linting for agent formatting compliance
+- Cache-layout optimization for faster access
+- Garbage collection of obsolete agent metadata
+
+**CLI usage:**
+```bash
+memgc lint AGENTS.md
+memgc optimize --cache-dir ~/.cache/agent
+memgc gc --instructions *.md
+```
