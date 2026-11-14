@@ -10,6 +10,10 @@ pub enum RuleCode {
     MGC003,
     /// Redundant or duplicate instruction wasting agent context
     MGC004,
+    /// Low information density or conversational filler phrase
+    MGC005,
+    /// Malformed or unclosed markdown code fence
+    MGC006,
 }
 
 impl RuleCode {
@@ -19,6 +23,8 @@ impl RuleCode {
             RuleCode::MGC002 => "MGC002",
             RuleCode::MGC003 => "MGC003",
             RuleCode::MGC004 => "MGC004",
+            RuleCode::MGC005 => "MGC005",
+            RuleCode::MGC006 => "MGC006",
         }
     }
 
@@ -28,6 +34,8 @@ impl RuleCode {
             RuleCode::MGC002 => "Semantic Directive Contradiction",
             RuleCode::MGC003 => "Prompt-Cache Prefix Invalidation",
             RuleCode::MGC004 => "Duplicate / Redundant Rule",
+            RuleCode::MGC005 => "Low Information Density / Filler Phrase",
+            RuleCode::MGC006 => "Malformed or Unclosed Code Fence",
         }
     }
 }

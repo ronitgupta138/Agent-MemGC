@@ -42,6 +42,8 @@ impl LinterReport {
                 crate::domain::finding::RuleCode::MGC002 => wasted_tokens += 60,
                 crate::domain::finding::RuleCode::MGC003 => cache_clean = false,
                 crate::domain::finding::RuleCode::MGC004 => wasted_tokens += 35,
+                crate::domain::finding::RuleCode::MGC005 => wasted_tokens += 15,
+                crate::domain::finding::RuleCode::MGC006 => wasted_tokens += 20,
             }
         }
 
