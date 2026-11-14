@@ -1,3 +1,5 @@
+pub mod cache_stability;
+pub use cache_stability::compute_prefix_stability_hash;
 pub mod fixer;
 pub mod linter;
 
