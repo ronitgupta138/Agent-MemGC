@@ -1,3 +1,5 @@
+pub mod markdown_fences;
+pub use markdown_fences::check_markdown_fences;
 pub mod token_density;
 pub use token_density::check_token_density;
 pub mod cache_layout;
