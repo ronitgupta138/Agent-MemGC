@@ -1,3 +1,5 @@
+pub mod token_density;
+pub use token_density::check_token_density;
 pub mod cache_layout;
 pub mod contradictions;
 pub mod dead_paths;
